@@ -5,9 +5,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
+var articleOne =
+{
     title: 'Article 1 | Nirnaeshitha Karri'
-    heading:'Article one'
+    heading:`Article one`
     date: 'August 12 2017'
     context: `
      <p>
@@ -21,7 +22,7 @@ var articleOne = {
                  <p>
                 This is the content for the first articleThis is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.
                 </p>
-    `;
+    `
 }
 function createTemplete (data){
     var title = data.title;
