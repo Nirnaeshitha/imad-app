@@ -1,7 +1,6 @@
 body {
     font-family: times new roman;
-    background-color: lightgrey;
-    margin-top: 75px;
+    padding : 60px;
 }
 
 .center {
@@ -22,10 +21,9 @@ body {
 
  .container{
     max-width: 800px;
-    color: 'black';
+    color: black;
     margin: 0 auto;
     font-family: 'sans-serif';
-    padding: 40px;
     padding-left: 10px;
     padding-right: 10px;
-
+}
