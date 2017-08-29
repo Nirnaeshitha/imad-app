@@ -10,7 +10,7 @@ var articleOne = {
     title: `Article 1 | Nirnaeshitha Karri` ,
     date: 'August 12 2017' ,
     heading: `Article one ` , 
-    context: `
+    content: `
      <p>
                 This is the content for the first articleThis is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.
                 </p>
