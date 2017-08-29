@@ -6,9 +6,9 @@ var app = express();
 app.use(morgan('combined'));
 
 var articleOne = {
-    title: 'Article 1 | Nirnaeshitha Karri';
-    heading:'Article one';
-    date: 'August 12 2017';
+    title: 'Article 1 | Nirnaeshitha Karri'
+    heading:'Article one'
+    date: 'August 12 2017'
     context: `
      <p>
                 This is the content for the first articleThis is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.This is the content for the first article.
