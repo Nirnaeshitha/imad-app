@@ -30,7 +30,7 @@ request.open('GET','http://knshitha.imad.hasura-app.io/counter',true);
 request.send(null);
 };
     
-var submit = document.getElemntById("submit_btn");
+var submit = document.getElementById("submit_btn");
 submit.onclick =  function()
 {
      var request = new XMLHttpRequest();
