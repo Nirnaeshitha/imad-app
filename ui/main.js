@@ -30,7 +30,7 @@ request.open('GET','http://knshitha.imad.hasura-app.io/submit-name?name='+name,t
 request.send(null);
 };
 var nameInput = getElemntById("name");
-var name = nameInput.value;
+var names = nameInput.value;
 var submit = getElemntById("submit_btn");
 submit.onclick =  function()
 {
