@@ -107,7 +107,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 var names = [];
-app.get('/submit_names/:name',function(req,res) {
+app.get('/submit-name/:name',function(req,res) {
    var names = req.param(name);
    names.push(name);
    res.send(JSON.stringify(names));
